@@ -1,17 +1,13 @@
-package com.example.demo.src.user.model;
-
+package com.example.demo.src.member.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-
 @Getter
 @Setter
 @AllArgsConstructor
-public class GetUserRes {
+public class PatchUserReq {
     private int userIdx;
-    private String name;
     private String nickName;
-    private String email;
 }

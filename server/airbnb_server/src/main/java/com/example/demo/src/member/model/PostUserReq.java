@@ -1,17 +1,18 @@
-package com.example.demo.src.user.model;
+package com.example.demo.src.member.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
 @AllArgsConstructor
-public class DeleteUserRes {
+@NoArgsConstructor
+public class PostUserReq {
     private String name;
     private String nickName;
-   // private String phone;
-    private String gender;
+    private String phone;
     private String email;
     private String password;
 }

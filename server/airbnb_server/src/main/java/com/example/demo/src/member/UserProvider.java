@@ -1,8 +1,8 @@
-package com.example.demo.src.user;
+package com.example.demo.src.member;
 
 
 import com.example.demo.config.BaseException;
-import com.example.demo.src.user.model.*;
+import com.example.demo.src.member.model.*;
 import com.example.demo.utils.JwtService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

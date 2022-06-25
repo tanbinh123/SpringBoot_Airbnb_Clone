@@ -1,4 +1,4 @@
-package com.example.demo.src.user.model;
+package com.example.demo.src.accommodations.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class User {
+public class AccomDetail {
     private int userIdx;
     private String name;
     private String nickName;
