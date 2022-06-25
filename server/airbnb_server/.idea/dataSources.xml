@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="umc_airbnb-team1" uuid="b5ad79d2-1c74-4ca4-af57-522e6b05889b">
+    <data-source source="LOCAL" name="airbnbDB" uuid="1ab6e9bd-11a5-46da-b0da-6601908f92a1">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://umc-db.cjz581qzj0qi.ap-northeast-2.rds.amazonaws.com:3306/airbnb</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
 </project>

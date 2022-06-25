@@ -16,13 +16,13 @@ import java.util.List;
 @Getter
 @Setter
 @AllArgsConstructor
-public class GetUserFeedRes {
+public class GetMemberFeedRes {
     // 피드 보기
       // 1. 내 피드
       // 2. 다른 유저의 피드
     // -> 구별하기 위한 column 전달
     private boolean _isMyFeed;
 
-    private GetUserInfoRes getUserInfo;
-    private List<GetUserPostsRes> getUserPosts;
+    private GetMemberInfoRes getUserInfo;
+    private List<GetMemberPostsRes> getUserPosts;
 }

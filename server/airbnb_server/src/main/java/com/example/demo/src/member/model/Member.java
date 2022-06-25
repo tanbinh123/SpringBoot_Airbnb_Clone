@@ -7,11 +7,13 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class DeleteUserRes {
-    private String name;
-    private String nickName;
-   // private String phone;
-    private String gender;
+public class Member {
+    private int member_id;
     private String email;
+    private String firstName;
+    private String lastName;
+    private String gender;
+    private String profile_img_url;
     private String password;
+    private String phone_num;
 }

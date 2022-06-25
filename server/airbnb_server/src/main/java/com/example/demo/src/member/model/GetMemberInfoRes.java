@@ -8,7 +8,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class GetUserInfoRes {
+public class GetMemberInfoRes {
     // 유저 정보 객체
     private String nickName;
     private String name;

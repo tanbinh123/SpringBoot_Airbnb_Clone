@@ -7,6 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class DeleteUserReq {
+public class PostMemberRes {
+    private String jwt;
     private int userIdx;
 }
