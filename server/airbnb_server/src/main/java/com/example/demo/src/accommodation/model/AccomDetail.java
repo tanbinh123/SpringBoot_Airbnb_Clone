@@ -1,4 +1,4 @@
-package com.example.demo.src.accommodations.model;
+package com.example.demo.src.accommodation.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
