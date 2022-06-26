@@ -1,10 +1,5 @@
 package com.example.demo.src.accommodation;
 
-
-import com.example.demo.config.BaseException;
-import com.example.demo.src.member.model.PatchUserReq;
-import com.example.demo.src.member.model.PostUserReq;
-import com.example.demo.src.member.model.PostUserRes;
 import com.example.demo.utils.JwtService;
 import com.example.demo.utils.SHA256;
 import org.slf4j.Logger;
